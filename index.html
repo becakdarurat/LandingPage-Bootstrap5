@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- Pesan Alert Start -->
+    <div class="modal fade" id="myAlertModal" tabindex="-1" aria-labelledby="myAlertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="myAlertModalLabel">Selamat datang!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Silahkan Login terlebih dahulu!
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Pesan Alert End -->
+  
+
+
+
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh">
+        <div class="card border border-secondary p-3">
+            <img src="img/profile.jpg" alt="profile" role="img" class="img-fluid rounded-circle w-50 mx-auto d-block">
+            <div class="card-content d-flex justify-content-center flex-column">
+                <label>
+                    Username :
+                    <input type="text" name="username" class="w-100" required>
+                </label>
+                <label>
+                    Password :
+                    <input type="password" name="password" class="w-100" required>
+                </label>
+            </div>
+            <div class="card-footer d-grid gap-4 d-flex justify-content-center">
+                <div class="btn btn-outline-primary">Daftar</div>
+                <div class="btn btn-outline-success">Login</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
